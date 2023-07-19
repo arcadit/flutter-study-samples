@@ -42,3 +42,4 @@ iOSシミュレーターを起動
 $ fvm flutter run -t lib/main.dart
 ```
 
+<img src="https://github.com/arcadit/flutter-study-samples/assets/8144028/0e9367e6-043d-484e-a4e1-db324f6fc266" width="400" />

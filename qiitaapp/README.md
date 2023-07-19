@@ -1,16 +1,44 @@
 # qiitaapp
 
-A new Flutter project.
+FlutterによるQiitaクライアント
 
-## Getting Started
+https://www.flutter-study.dev/create-app/qiita-app
 
-This project is a starting point for a Flutter application.
+## 環境
 
-A few resources to get you started if this is your first Flutter project:
+* fvm
+* VSCode
+* Xcode14.2
+* Android Studio 2022.2.1
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+iOSシミュレーターで動作確認
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 構築手順
+
+1. fvmをインストール
+
+```
+$ brew tap leoafarias/fvm
+$ brew install fvm
+```
+
+2. fvmで指定されたバージョンでflutterをインストール
+
+```
+$ fvm install 2.0.1
+```
+
+3. VSCodeもしくはコマンドラインで起動
+
+iOSシミュレーターを起動
+
+## VSCode
+
+実行とデバッグ - Qiita App
+
+## コマンドライン
+
+```
+$ fvm flutter run -t lib/main.dart
+```
+

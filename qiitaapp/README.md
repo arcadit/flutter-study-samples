@@ -15,6 +15,24 @@ iOSシミュレーターで動作確認
 
 ## 構築手順
 
+### Ruby
+
+CocoaPodのバージョンに対応したRubyをインストール
+
+1. rbenvをインストール（インストールしていない場合）
+
+```
+$ brew install rbenv ruby-build
+```
+
+2. .ruby-versionに対応したRubyのバージョンをインストール
+
+```
+$ rbenv install 2.7.8
+```
+
+### Flutter
+
 1. fvmをインストール
 
 ```
@@ -28,7 +46,20 @@ $ brew install fvm
 $ fvm install 2.0.1
 ```
 
-3. VSCodeもしくはコマンドラインで起動
+3. fvmで指定したバージョンでpubspecを最新化
+
+```
+$ fvm flutter pub get
+```
+
+4. CocoaPodをインストール
+
+```
+$ cd ios
+$ bundle exec pod install
+```
+
+5. VSCodeもしくはコマンドラインで起動
 
 iOSシミュレーターを起動
 

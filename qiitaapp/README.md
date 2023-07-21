@@ -31,6 +31,12 @@ $ brew install rbenv ruby-build
 $ rbenv install 2.7.8
 ```
 
+3. bunlderをインストール
+
+```
+$ bundle install
+```
+
 ### Flutter
 
 1. fvmをインストール
